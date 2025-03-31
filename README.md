@@ -27,8 +27,15 @@ module.exports = function (eleventyConfig) {
 
 ## Usage in 11ty
 
-This plugin creates a skipLink where places which is only visible when in focus. Place is as the first element in your header so it will be the first element that gets focused when pressing tab. Use it as a [shortcode](https://www.11ty.dev/docs/shortcodes/)
+This plugin creates a skipLink where places which is only visible when in focus. Place is as the first element in your header so it will be the first element that gets focused when pressing tab. Use it as a [shortcode](https://www.11ty.dev/docs/shortcodes/):
 
 ```njk
 {% skipLink %} <-- Liquid & Nunjuck
 ```
+
+and in your HTML define a HTML-element with the id `main-content` or a custom one you provided in the config:
+
+```html
+<main id="main-content">
+  <h1>Some super cool website made with 11ty</h1>
+</main>
