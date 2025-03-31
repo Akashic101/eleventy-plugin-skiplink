@@ -1,0 +1,22 @@
+{
+  "name": "eleventy-plugin-skiplink",
+  "version": "1.1.0",
+  "description": "A eleventy-plugin to automatically insert a skiplink into a webpage",
+  "main": "plugin.js",
+  "keywords": [
+    "11ty",
+    "eleventy-plugin",
+    "skiplink",
+    "accessibility"
+  ],
+  "author": "David Moll (contact@davidmoll.net)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akashic101/eleventy-plugin-skiplink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Akashic101/eleventy-plugin-skiplink/issues"
+  },
+  "homepage": "https://github.com/Akashic101/eleventy-plugin-skiplink#readme"
+}
