@@ -2,7 +2,7 @@
   "name": "eleventy-plugin-skiplink",
   "version": "1.1.0",
   "description": "A eleventy-plugin to automatically insert a skiplink into a webpage",
-  "main": "plugin.js",
+  "main": ".eleventy.js",
   "keywords": [
     "11ty",
     "eleventy-plugin",
